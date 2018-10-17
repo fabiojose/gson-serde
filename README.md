@@ -16,7 +16,7 @@ final GsonSerde<JsonObject> gsonSerde = new GsonSerde<>(JsonObject.class);
 ```
 
 > Why I need to pass a class in the GsonSerde's constructor? 
->> This is necessary becouse Gson uses the class to parse the things.
+> this is necessary because Gson uses the class to parse the things.
 
 > In the example above we are using the generic JsonObject from Gson library, but could be any POJO.
 
