@@ -15,10 +15,11 @@ Create an instance of `GsonSerde`
 final GsonSerde<JsonObject> gsonSerde = new GsonSerde<>(JsonObject.class);
 ```
 
-> Why I need to pass a class in the GsonSerde's constructor? 
-> this is necessary because Gson uses the class to parse the things.
-
 > In the example above we are using the generic JsonObject from Gson library, but could be any POJO.
+
+Why I need to pass a class in the GsonSerde's constructor? 
+
+This is necessary because Gson uses the class to parse the things.
 
 Then, use it in `Consumed.with()` or `Prodused.with()`
 
