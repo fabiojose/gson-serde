@@ -3,7 +3,7 @@
 	<groupId>com.github.fabiojose.kafka</groupId>
 	<artifactId>gson-serde</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>gson-serde</name>
 	<url>http://maven.apache.org</url>
 
@@ -22,7 +22,7 @@
 		<connection>scm:git:git://github.com/fabiojose/gson-serde.git</connection>
 		<developerConnection>scm:git:git@github.com:fabiojose/gson-serde.git</developerConnection>
 		<url>https://github.com/fabiojose/gson-serde</url>
-		<tag>gson-serde-1.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<dependencies>
