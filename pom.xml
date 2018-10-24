@@ -3,7 +3,7 @@
 	<groupId>com.github.fabiojose.kafka</groupId>
 	<artifactId>gson-serde</artifactId>
 	<packaging>jar</packaging>
-	<version>1.2</version>
+	<version>1.3-SNAPSHOT</version>
 	<name>gson-serde</name>
 	<url>https://github.com/fabiojose/gson-serde</url>
 	<description>Kafka Streams serde that wraps the Gson library and we can work with JSON on topics.</description>
@@ -42,7 +42,7 @@
 		<connection>scm:git:git://github.com/fabiojose/gson-serde.git</connection>
 		<developerConnection>scm:git:git@github.com:fabiojose/gson-serde.git</developerConnection>
 		<url>https://github.com/fabiojose/gson-serde</url>
-		<tag>gson-serde-1.2</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<dependencies>
